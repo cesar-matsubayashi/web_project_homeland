@@ -5,3 +5,7 @@ A página da galeria de arte TripeTen mostra um pouco sobre a cidade natal dos p
 # Planos de melhoria
 
 Adicionar mapa indicando as cidades natais pelo mundo.
+
+# Link para GitHub Pages
+
+https://cesar-matsubayashi.github.io/web_project_homeland

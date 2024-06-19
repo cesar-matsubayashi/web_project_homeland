@@ -25,6 +25,7 @@
 .a-little-more__quote-cite {
   margin-top: 10px;
   align-self: flex-end;
+  font-style: normal;
 }
 
 .a-little-more__text {
@@ -50,8 +51,9 @@
   }
 
   .a-little-more__quote-cite {
-    margin-top: 26px;
-    align-self: flex-end;
+    margin: 0;
+    position: relative;
+    top: -8px;
   }
 }
 

@@ -1,0 +1,142 @@
+.homeland {
+  display: grid;
+  grid-template-columns: 460px auto;
+  grid-template-rows: auto 460px auto;
+  padding: 80px 148px 0;
+  grid-gap: 48px 40px;
+}
+
+.homeland:first-of-type {
+  padding-top: 92px;
+}
+
+.homeland__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.homeland__artists-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.homeland__artist-title {
+  font-size: 12px;
+  color: #aaaaaa;
+  margin: 0 0 8px;
+}
+
+.homeland__artist {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.homeland__image {
+  width: 100%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.homeland__image:hover {
+  opacity: 0.5;
+}
+
+.homeland__text-container {
+  font-size: 18px;
+  line-height: 163%;
+  grid-row: span 2;
+}
+
+.homeland__text {
+  margin: 0 0 25px;
+}
+
+.homeland__text:last-of-type {
+  margin: 0;
+}
+
+.homeland__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(90deg, #0278fe, #003a7b);
+  width: 356.08px;
+  height: 48px;
+  border-radius: 4px;
+
+  /* background: linear-gradient(90deg, rgba(2, 120, 254, 0.2) 0%, rgba(0, 58, 123, 0.2) 99.98%); */
+}
+
+.homeland__button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(1, 72, 152, 0.25) 100%
+  );
+}
+
+@media screen and (max-width: 1024px) {
+  .homeland {
+    grid-template-columns: 340px auto;
+    grid-template-rows: auto 340px auto;
+    padding: 72px 24px 0;
+    grid-column-gap: 28px;
+  }
+
+  .homeland:first-of-type {
+    padding-top: 88px;
+  }
+
+  .homeland__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .homeland__text-container {
+    font-size: 16px;
+  }
+  .homeland__button {
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .homeland {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 50px 0 0;
+    grid-row-gap: 30px;
+  }
+
+  .homeland:first-of-type {
+    padding-top: 62px;
+  }
+
+  .homeland__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+
+  .homeland__artists-container {
+    margin: 0 16px;
+  }
+
+  .homeland__text-container {
+    margin: 0 16px;
+  }
+  .homeland__button {
+    font-size: 14px;
+    width: 288px;
+    margin: 0 16px;
+  }
+}
